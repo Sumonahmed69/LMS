@@ -1,3 +1,4 @@
+import { ThemeToggle } from "@/components/ui/theme-Toggle";
 import Image from "next/image";
 
 export default function Home() {
@@ -6,6 +7,9 @@ export default function Home() {
 
 
     LMS
+<p></p>
+
+    <ThemeToggle></ThemeToggle>
    </div>
   );
 }
